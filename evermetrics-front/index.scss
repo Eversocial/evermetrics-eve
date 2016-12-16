@@ -1,0 +1,309 @@
+$secondary-color: #5ac3e8;
+
+@import "node_modules/materialize-css/sass/materialize.scss";
+
+html{
+ background-color:#f3f4f6 !important;
+}
+
+a{
+  $secondary-color: #5ac3e8;
+}
+
+.btn-login{
+  background-color:#5ac3e8;
+}
+
+.btn:hover, .btn-large:hover{
+  background-color: #4da2c0;
+}
+
+
+.everlytics{
+  color: #000;
+  text-align:center;
+}
+
+.intro-everlytics{
+  color: #000;
+  text-align: center;
+}
+
+.btn-idioma{
+  background-color: transparent;
+}
+
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.card-images img{
+  width: 100%;
+}
+
+$avatar-size: 48px;
+
+.avatar{
+  width: $avatar-size;
+  height: $avatar-size;
+  border-radius: 50%;
+  float: left;
+  margin-right: 12px;
+}
+
+.card small.time{
+  line-height: $avatar-size;
+  color: #ed1651 !important;
+}
+
+.card p{
+  padding: 20px 0px;
+  color: #ed1651 !important;
+}
+
+.card .likes{
+  line-height: 30px;
+  margin-left: 12px;
+}
+
+.card i{
+  font-size: 30px;
+}
+
+.card .fa-heart-o{
+  color:#ed1651;
+}
+
+body{
+  background-color: #f3f4f6;
+}
+
+.logo{
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.menu-lateral{
+  border-radius: 3px;
+  height: 100%;
+  background-color: #f3f4f6;
+}
+
+
+.btn-contact{
+  background-color: transparent;
+}
+
+.btn-contact:hover, .btn-contact:focus{
+  background-color: #c62241;
+}
+
+.site-footer{
+  color:white;
+  background-color: #5a5b5b;
+  padding: 23px 0px 23px;
+
+}
+
+.cont-logo{
+  height: 72px;
+  padding: 15px 50px !important;
+}
+
+.cont-user{
+  padding: 9px 0px !important;
+}
+
+#header-container{
+  background-color: #5a5b5b !important;
+}
+
+.cont-mes{
+  height: 72px;
+  padding: 12px 20px !important;
+  border-left: 1px solid white;
+}
+
+.cont-ano{
+  height: 72px;
+  padding: 12px 20px !important;
+  border-left: 1px solid white;
+}
+
+.container{
+  width: 100%;
+}
+
+.row{
+  margin: 0px !important;
+}
+
+.cont-datos{
+  border-left: 1px solid #5a5b5b;
+  padding: 0px !important;
+  //height: 100%;
+}
+
+.cont-datos h4{
+  color:#000000;
+  padding: 0 0.75rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.58rem;
+}
+
+.cont-header{
+  padding: 0px !important;
+  color:white;
+}
+
+.cont-user a{
+  background-color: #e2e3e5;
+  color: #5a5b5b;
+}
+
+.dropdown-content li>a, .dropdown-content li>span{
+  color:#5a5b5b;
+}
+
+.cont-menu{
+  padding: 0px !important;
+}
+
+.menu-lateral li{
+  border-bottom: 1px solid #5a5b5b;
+  display: list-item !important;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active{
+  font-weight: 600;
+}
+
+.cont-variables{
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  padding: 10px 11.5px !important;
+}
+
+.cont-datos .row{
+  border:1px solid whitesmoke;
+}
+
+.cont-redes h5{
+  font-size: 1.2rem !important;
+  color: #000000;
+}
+
+.cont-variables p{
+  color: #53a8c3;
+  font-size: 23px;
+  margin: 0px;
+}
+
+.menu-lateral .indicator{
+  display: none;
+}
+
+.btn-mes{
+  color:white;
+}
+
+.btn-ano{
+  color:white;
+}
+
+.drop-mes{
+  background-color: #e2e3e5;
+}
+
+.drop-mes li{
+  border-bottom: 1px solid white;
+}
+
+.drop-mes li:last-child{
+  border-bottom: none;
+}
+
+
+.drop-mes li:hover, .drop-mes li.active, .drop-mes li.selected{
+  background-color: rgb(205, 205, 206);
+}
+
+.btn-mes:after {
+  color: #ffffff;
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "\f107";
+  font-size: 24px;
+  position: relative;
+  text-align: center;
+  left: 300px;
+  top: -35px;
+  margin-top: 0px;
+  width: 50px;
+}
+
+
+.btn-ano:after {
+  color: #ffffff;
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "\f107";
+  font-size: 24px;
+  position: relative;
+  text-align: center;
+  left: 250px;
+  top: -35px;
+  margin-top: 0px;
+  width: 50px;
+}
+
+.otro-dato{
+  color: #27c3b7 !important;
+}
+
+#cont-edades .otro-dato{
+  color: #f4d033 !important;
+}
+
+
+.dropdown-content{
+  margin-top: 60px;
+}
+
+.btn-flat:focus, .btn-flat:hover{
+  background-color: rgb(205, 205, 206);
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    color: #5a5b5b;
+}
+
+.tabs .tab a {
+    color: rgba(79,81,83,0.7);
+}
+
+.tabs{
+  display: block;
+}
+
+.tabs .tab{
+  width: 100%;
+}
+
+.container-login{
+  width: 60%;
+  background-color: white;
+  margin: 90px auto;
+  padding: 30px;
+}
+
+.signup-form input{
+  border: 1px solid #ccc;
+  padding-left: 13px;
+  color: #000;
+}
+
+.cont-form-login{
+  padding: 0px 140px;
+}
