@@ -1,0 +1,84 @@
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, user-scalable=no')
+    link(rel='stylesheet', href='style.css', type='text/css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css')
+    link(rel='apple-touch-icon', sizes='57x57', href='/apple-icon-57x57.png')
+    link(rel='apple-touch-icon', sizes='60x60', href='/apple-icon-60x60.png')
+    link(rel='apple-touch-icon', sizes='72x72', href='/apple-icon-72x72.png')
+    link(rel='apple-touch-icon', sizes='76x76', href='/apple-icon-76x76.png')
+    link(rel='apple-touch-icon', sizes='114x114', href='/apple-icon-114x114.png')
+    link(rel='apple-touch-icon', sizes='120x120', href='/apple-icon-120x120.png')
+    link(rel='apple-touch-icon', sizes='144x144', href='/apple-icon-144x144.png')
+    link(rel='apple-touch-icon', sizes='152x152', href='/apple-icon-152x152.png')
+    link(rel='apple-touch-icon', sizes='180x180', href='/apple-icon-180x180.png')
+    link(rel='icon', type='image/png', sizes='192x192', href='/android-icon-192x192.png')
+    link(rel='icon', type='image/png', sizes='32x32', href='/favicon-32x32.png')
+    link(rel='icon', type='image/png', sizes='96x96', href='/favicon-96x96.png')
+    link(rel='icon', type='image/png', sizes='16x16', href='/favicon-16x16.png')
+    link(rel='manifest', href='/manifest.json')
+    meta(name='msapplication-TileColor', content='#ffffff')
+    meta(name='msapplication-TileImage', content='/ms-icon-144x144.png')
+    meta(name='theme-color', content='#ffffff')
+    title=title
+  body
+    section#header-container
+    section#main-container
+    footer.site-footer
+      .container
+        .row(style='padding-top:20px;')
+          .col.s12.l4(style='text-align: center')
+            img(style='margin-top: 100px', src='logo-eversocial-blanco.png')
+          .col.s12.l5
+            h6  OTROS MESES
+            .col.s12.l5
+              a(href='#')
+                p(style='color:#fff') Enero
+              a(href='#')
+                p(style='color:#fff') Febrero
+              a(href='#')
+                p(style='color:#fff') Marzo
+              a(href='#')
+                p(style='color:#fff') Abril
+              a(href='#')
+                p(style='color:#fff') Mayo
+              a(href='#')
+                p(style='color:#fff') Junio
+            .col.s12.l5
+              a(href='#')
+                p(style='color:#fff') Julio
+              a(href='#')
+                p(style='color:#fff') Agosto
+              a(href='#')
+                p(style='color:#fff') Septiembre
+              a(href='#')
+                p(style='color:#fff') Octubre
+              a(href='#')
+                p(style='color:#fff') Noviembre
+              a(href='#')
+                p(style='color:#fff') Diciembre
+          .col.s12.l3.center-align(style='text-align: left')
+            h6 CONTÁCTANOS
+            form
+              .form-group(style='margin-top:26px')
+                label(for='email', style='color:#fff') Nombre:
+              .form-group
+                input#nombre.form-control(type='nombre', style='width: 200px')
+              .form-group(style='margin-top:15px')
+                label(for='pwd', style='color:#fff') Email:
+              .form-group
+                input#email.form-control(type='nombre', style='width:200px')
+              button.btn.btn-contact(type='submit', href='http://eversocial.co/contact/', target='_blank', style='margin-top:20px;margin-bottom:15px;font-size: 12px') Enviar
+        .row(style='padding:20px 0px 0px;')
+          .col.s12.l7.push-l1
+            | Evermetrics © 2017
+          .col.s12.l4(style='text-align: right;padding:0px;')
+            a(href='http://siempresas.co/politica-tratamiento-informacion/', target='_blank', style='color: #fff;padding-top: 28px;font-size: 14px;') Ver la política de uso de datos personales
+    script(src='http://code.jquery.com/jquery-3.1.1.min.js', integrity='sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=', crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js')
+    script(type='application/javascript' src='app.js')
+    script.
+      $(document).ready(function(){
+      $('ul.tabs').tabs();
+      });
